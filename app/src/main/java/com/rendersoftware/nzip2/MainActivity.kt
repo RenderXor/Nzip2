@@ -1,15 +1,12 @@
 package com.rendersoftware.nzip2
 
+
 import android.app.Activity
-import android.app.AlertDialog
-import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
-import android.widget.EditText
 import android.widget.ListView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
@@ -17,12 +14,8 @@ import androidx.core.content.ContextCompat
 import com.rendersoftware.nzip2.databinding.ActivityMainBinding
 import net.lingala.zip4j.ZipFile
 import net.lingala.zip4j.exception.ZipException
-
-
-import net.lingala.zip4j.io.inputstream.ZipInputStream
 import java.io.File
 import java.io.FileOutputStream
-import java.io.InputStream
 
 
 class MainActivity : Activity() {
